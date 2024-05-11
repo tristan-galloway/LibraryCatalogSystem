@@ -12,3 +12,4 @@ C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatal
 C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\obj\Debug\net8.0\LibraryCatalogSystem.pdb
 C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\obj\Debug\net8.0\LibraryCatalogSystem.genruntimeconfig.cache
 C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\obj\Debug\net8.0\ref\LibraryCatalogSystem.dll
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\obj\Debug\net8.0\LibraryCatalogSystem.sourcelink.json

@@ -22,4 +22,7 @@ public class Library {
         _books.Add(book);
     }
 
+    public List<Book> GetBooks() {
+        return _books;
+    }
 }

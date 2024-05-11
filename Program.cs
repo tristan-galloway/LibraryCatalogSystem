@@ -25,7 +25,10 @@ class Program
 
         MenuManager menu = new(library);
 
+
+        Console.Clear();
         menu.Run();
         menu.GetMenu();
+        menu.ThankYouMessage();
     }
 }
