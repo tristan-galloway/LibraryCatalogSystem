@@ -1,0 +1,14 @@
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\bin\Debug\net8.0\LibraryCatalogSystem.exe
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\bin\Debug\net8.0\LibraryCatalogSystem.deps.json
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\bin\Debug\net8.0\LibraryCatalogSystem.runtimeconfig.json
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\bin\Debug\net8.0\LibraryCatalogSystem.dll
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\bin\Debug\net8.0\LibraryCatalogSystem.pdb
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\obj\Debug\net8.0\LibraryCatalogSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\obj\Debug\net8.0\LibraryCatalogSystem.AssemblyInfoInputs.cache
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\obj\Debug\net8.0\LibraryCatalogSystem.AssemblyInfo.cs
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\obj\Debug\net8.0\LibraryCatalogSystem.csproj.CoreCompileInputs.cache
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\obj\Debug\net8.0\LibraryCatalogSystem.dll
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\obj\Debug\net8.0\refint\LibraryCatalogSystem.dll
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\obj\Debug\net8.0\LibraryCatalogSystem.pdb
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\obj\Debug\net8.0\LibraryCatalogSystem.genruntimeconfig.cache
+C:\Users\Direc\OneDrive - BYU-Idaho\Documents\BYUI\spring_24\cse310\LibraryCatalogSystem\obj\Debug\net8.0\ref\LibraryCatalogSystem.dll
