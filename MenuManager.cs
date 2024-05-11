@@ -51,13 +51,13 @@ public class MenuManager {
                     ReturnBook();
                     break;
                 case 5:
+                    Console.WriteLine(" ");
+                    ThankYouMessage();
                     break;
             }
         }
-        
     }
-
-    public void BookInventory() {
+      public void BookInventory() {
         // Displays all the books in the library in a numbered list.
         Console.WriteLine("Here is our current catalog of books.");
 
@@ -70,7 +70,22 @@ public class MenuManager {
 
     public void CheckAvailability() {
         // User enters a book name, the system returns whether or not the book is available.
-        Console.WriteLine("");
+        Console.Write("What book would you like to check it's availability? ");
+        string response = Console.ReadLine();
+
+        // && b.IsAvalailable() == true
+        // b.GetTitle().Contains(response, StringComparison.OrdinalIgnoreCase))
+
+        foreach (Book b in _library.GetBooks()) {
+            if (b.GetTitle().Contains(response, StringComparison.OrdinalIgnoreCase)) {
+                if (b.IsAvalailable() == true) {
+                    Console.WriteLine($"The book '{b.GetTitle()}' is available.");
+                } else {
+                    Console.WriteLine($"The book '{b.GetTitle()}' not available");
+                }
+                
+            }
+        }
     }
 
     public void BorrowBook() {
@@ -80,14 +95,15 @@ public class MenuManager {
         // Ask which book they'd like to borrow.
         Console.Write("Select the book you'd like to borrow: ");
         string answer = Console.ReadLine();
-        int choice = int.Parse(answer);
+        // Convert the users choice to an int index value
+        int choice = int.Parse(answer) - 1;
 
         // If the book is available, mark it as borrowed. Otherwise, let the user know.
         if (_library.GetBooks()[choice].IsAvalailable() == true) {
-            Console.WriteLine("\nThe book is available, we'll send it to your listed address.");
+            Console.WriteLine($"\nThe book '{_library.GetBooks()[choice].GetTitle()}' is available, we'll send it to your listed address.");
             _library.GetBooks()[choice].BorrowBook();
         } else {
-            Console.WriteLine($"Sorry, {_library.GetBooks()[choice].GetTitle()} is not currently available.");
+            Console.WriteLine($"\nSorry, {_library.GetBooks()[choice].GetTitle()} is not currently available.");
         }
         
     }
@@ -96,15 +112,11 @@ public class MenuManager {
         Console.Write("What book would you like to return? ");
         string response = Console.ReadLine();
 
-        List<Book> stack = [];
-
+        // Search for the book in the book list, if we have it, mark it as available again.
         foreach (Book b in _library.GetBooks()) {
-            if (b.GetTitle().Contains("response")) {
-                // stack.Add(b);
+            if (b.GetTitle().Contains(response, StringComparison.OrdinalIgnoreCase)) {
                 Console.WriteLine($"Thank you for returning {b.GetTitle()}");
                 b.ReturnBook();
-            } else {
-                Console.WriteLine("That doesn't appear to be in our library. Double check the spelling of the book you are trying to return and try again.");
             }
         }
 

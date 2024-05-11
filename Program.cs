@@ -15,7 +15,7 @@ class Program
         Library library = new("Yorknew City Library", "1st St Yale");
         Book book1 = new("Unbroken", "Laura Hillenbrand");
         Book book2 = new("The Lord of The Rings", "J. R. R. Tolkien");
-        Book book3 = new("The Hunder Games", "Suzanne Collins");
+        Book book3 = new("The Hunger Games", "Suzanne Collins");
         Book book4 = new("Percy Jackson & the Olympians", "Rick Riordan");
 
         library.AddBook(book1);
@@ -25,10 +25,8 @@ class Program
 
         MenuManager menu = new(library);
 
-
         Console.Clear();
         menu.Run();
         menu.GetMenu();
-        menu.ThankYouMessage();
     }
 }
