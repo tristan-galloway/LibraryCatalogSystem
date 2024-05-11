@@ -96,9 +96,15 @@ public class MenuManager {
         Console.Write("What book would you like to return? ");
         string response = Console.ReadLine();
 
+        List<Book> stack = [];
+
         foreach (Book b in _library.GetBooks()) {
             if (b.GetTitle().Contains("response")) {
-                Console.
+                // stack.Add(b);
+                Console.WriteLine($"Thank you for returning {b.GetTitle()}");
+                b.ReturnBook();
+            } else {
+                Console.WriteLine("That doesn't appear to be in our library. Double check the spelling of the book you are trying to return and try again.");
             }
         }
 

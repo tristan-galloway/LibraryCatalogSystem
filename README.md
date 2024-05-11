@@ -19,6 +19,5 @@ This library managment system will allow me to have classes for the books and li
 
 # Future Work
 
-
 - Search Functions need better funcionality.
--
+- Design a functioning deticated UI.
